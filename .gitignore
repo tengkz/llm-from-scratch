@@ -341,4 +341,21 @@ cython_debug/
 .pixi
 *.egg-info
 
+# ===========================================================
+# Personal (kzteng) — large files only, keep code in git
+# ===========================================================
+
+# Downloaded GPT-2 models
+gpt2/
+gpt2-hf/
+
+# Trained model checkpoints
+model.pth
+model_and_optimizer.pth
+sgyy_model/
+sgyy_model_v2/
+
+# Training data
+sgyy_clean.txt
+
 
