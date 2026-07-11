@@ -355,7 +355,3 @@ model_and_optimizer.pth
 sgyy_model/
 sgyy_model_v2/
 
-# Training data
-sgyy_clean.txt
-
-
