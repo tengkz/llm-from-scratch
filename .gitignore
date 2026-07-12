@@ -348,10 +348,11 @@ cython_debug/
 # Downloaded GPT-2 models
 gpt2/
 gpt2-hf/
+wiki_model/
 
 # Trained model checkpoints
 model.pth
 model_and_optimizer.pth
 sgyy_model/
 sgyy_model_v2/
-
+review_classifier.pth
