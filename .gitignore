@@ -356,3 +356,6 @@ model_and_optimizer.pth
 sgyy_model/
 sgyy_model_v2/
 review_classifier.pth
+
+# Trained model
+gpt2-medium-355M-sft.pth

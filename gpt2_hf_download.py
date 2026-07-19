@@ -141,7 +141,7 @@ def download_and_load_gpt2_hf(model_size="124M", models_dir="gpt2-hf"):
 
 # Test
 if __name__ == "__main__":
-    settings, params = download_and_load_gpt2_hf(model_size="124M", models_dir="gpt2-hf")
+    settings, params = download_and_load_gpt2_hf(model_size="355M", models_dir="gpt2-hf")
     print("\nSettings:", json.dumps(settings, indent=2))
     print(f"\nNumber of transformer blocks: {len(params['blocks'])}")
     print(f"Token embedding shape: {params['wte'].shape}")
